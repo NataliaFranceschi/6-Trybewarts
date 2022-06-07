@@ -21,10 +21,7 @@ main {
   height: 500px;
 }
 
-#input-name{
-    max-width: 40%;
-}
 
-#input-lastname{
-    max-width: 40%;
+#nome{
+    display: flex;
 }
