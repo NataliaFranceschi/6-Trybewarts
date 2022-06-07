@@ -21,7 +21,6 @@ main {
   height: 500px;
 }
 
-
-#nome{
+div{
     display: flex;
 }
