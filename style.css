@@ -1,10 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(240, 240, 240);
+  font-size: 1.3em;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 header {
   display: flex;
   background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  color: white;
 }
 
 .trybewarts-login {
   display: flex;
+  align-items: center;
+}
+
+.trybewarts-login input , button {
+  display: flex;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.trybewarts-login button {
+  color: white;
+  background-color: rgb(67, 15, 116);
+  padding: 10px 30px;
+  font-weight: 600;
 }
 
 #evaluation-form {
@@ -15,6 +42,14 @@ header {
 
 main {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  flex-grow: 1;
+}
+
+h1 {
+  text-align: center;
 }
 
 #trybewarts-forms-logo {
@@ -23,4 +58,71 @@ main {
 
 div {
   display: flex;
+  justify-content: space-between;
+}
+
+.dados {
+  display: flex;
+  flex-grow: 1;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+}
+
+#familia , #conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  height: 120px;
+  align-content: flex-start;
+  margin-right: 60px;
+}
+
+hr {
+  width: 100%;
+}
+
+#submit-btn {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: rgb(67, 15, 116);
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+#label-rate {
+  margin: 20px 0;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: gray;
+  padding: 20px;
+  text-align: center;
+}
+
+@media screen and ( max-width : 1000px ) {
+
+  main img {
+    display: none;
+  }
+
+  h1 {
+    font-size: 1.3em;
+  }
+
+  header h1 , .trybewarts-login {
+    display: none;
+  }
+
+  div {
+    flex-direction: column;
+  }
+
+  #familia , #conteudo {
+    height: auto;
+    padding: 10px;
+  }
 }
