@@ -113,6 +113,10 @@ footer {
     font-size: 1.3em;
   }
 
+  header {
+    justify-content: center;
+  }
+
   header h1 , .trybewarts-login {
     display: none;
   }
