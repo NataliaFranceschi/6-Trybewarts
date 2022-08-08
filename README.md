@@ -12,3 +12,4 @@ Projeto desenvolvido em dupla no curso da Trybe ao final do bloco 6* do Módulo 
 
 No projeto <strong>Trybewarts</strong> foi desenvolvido um formulário com CSS Responsivo, ao final do formulário quando clicado no botão Enviar, o conteúdo é substituído pelas informações preenchidas.
 
+![trybewarts](./trybeWarts.gif)
